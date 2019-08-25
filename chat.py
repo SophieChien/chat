@@ -18,6 +18,7 @@ def convert(lines):
 		if person:
 			new.append(person + ':' + line)
 	return new
+	
 def write_file(filename, lines):
 	with open(filename, 'w') as f:
 		for line in lines:
