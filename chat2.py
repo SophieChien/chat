@@ -6,6 +6,7 @@ def read_file(filename):
 	return lines
 
 def convert(lines):
+	person = None
 	allen_word_count = 0
 	allen_sticker_count = 0
 	allen_pic_count = 0
@@ -46,4 +47,3 @@ def main():
 	#write_file('output.txt', lines)
 main() #程式的進入點
 
-#time, name, text = line.strip().split(' ',' ')
